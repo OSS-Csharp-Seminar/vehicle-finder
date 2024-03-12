@@ -16,7 +16,7 @@ Vehicle finder is an application.
 
 ### AI-Assisted Vehicle Discovery
 
-Users are be able to talk with an AI assistant about their vehicular needs. In return, the assistant will provide users with set of vehicles that fill their requirements. 
+Users are able to talk with an AI assistant about their vehicular needs. In return, the assistant will provide users with set of vehicles that fill their requirements. 
 
 ### Listing Finder
 
