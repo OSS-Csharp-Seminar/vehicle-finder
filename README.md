@@ -46,4 +46,5 @@ Users can leave comments on various vehicles, telling other users about their ex
 
 ## Database
 
-<image>
+![vehiclefinder-db](https://github.com/OSS-Csharp-Seminar/vehicle-finder/assets/147037900/8c7d7d09-ca3f-4b04-89a9-8e926f35dbe4)
+
