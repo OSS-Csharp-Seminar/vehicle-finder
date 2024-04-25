@@ -1,0 +1,5 @@
+dotnet ef migrations add InitalMigration --project .\Infrastructure\Infrastructure.csproj -s .\WebApi
+
+
+
+PM> Add-Migration d -c DatabaseContext -o .\Infrastructure\Migrations
