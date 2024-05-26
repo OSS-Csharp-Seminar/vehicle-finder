@@ -30,5 +30,7 @@ namespace Domain.Entities
 
         [Column("owners_count")]
         public int owners_count { get; set; }
+
+        public Engine engine { get; set; }
     }
 }

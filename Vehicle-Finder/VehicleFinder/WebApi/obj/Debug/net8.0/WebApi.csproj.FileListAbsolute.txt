@@ -123,3 +123,4 @@ C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json

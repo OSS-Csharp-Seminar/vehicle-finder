@@ -97,7 +97,13 @@ namespace Infrastructure.Infrastructure.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("shifter_type");
 
+                    b.Property<Guid>("vehicle_id")
+                        .HasColumnType("uuid");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("vehicle_id")
+                        .IsUnique();
 
                     b.ToTable("car_engine");
                 });
@@ -267,6 +273,17 @@ namespace Infrastructure.Infrastructure.Migrations
                     b.ToTable("vehicle");
                 });
 
+            modelBuilder.Entity("Domain.Entities.Engine", b =>
+                {
+                    b.HasOne("Domain.Entities.Vehicle", "vehicle")
+                        .WithOne("engine")
+                        .HasForeignKey("Domain.Entities.Engine", "vehicle_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("vehicle");
+                });
+
             modelBuilder.Entity("Domain.Entities.Listing", b =>
                 {
                     b.HasOne("Domain.Entities.User", "User")
@@ -284,6 +301,12 @@ namespace Infrastructure.Infrastructure.Migrations
                     b.Navigation("User");
 
                     b.Navigation("Vehicle");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Vehicle", b =>
+                {
+                    b.Navigation("engine")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

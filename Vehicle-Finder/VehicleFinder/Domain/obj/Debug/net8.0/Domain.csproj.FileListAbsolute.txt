@@ -12,3 +12,4 @@ C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Domain\bin\Debug\net8.0\Domain.runtimeconfig.json
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Domain\obj\Debug\net8.0\Domain.sourcelink.json

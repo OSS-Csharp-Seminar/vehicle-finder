@@ -13,3 +13,6 @@ C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Application\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Application\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Application\obj\Debug\net8.0\Application.sourcelink.json

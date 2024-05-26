@@ -1345,6 +1345,7 @@
           "Domain": "1.0.0",
           "FluentValidation": "11.9.0",
           "FluentValidation.DependencyInjectionExtensions": "11.9.0",
+          "Infrastructure": "1.0.0",
           "MediatR": "12.2.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0"

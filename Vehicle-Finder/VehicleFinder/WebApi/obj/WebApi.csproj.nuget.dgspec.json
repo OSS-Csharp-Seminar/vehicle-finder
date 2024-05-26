@@ -35,6 +35,9 @@
             "projectReferences": {
               "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
