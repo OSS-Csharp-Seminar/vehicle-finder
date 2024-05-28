@@ -39,9 +39,5 @@ namespace Domain.Entities
         [Column("cylinder_count")]
         public int cylinder_count { get; set; }
 
-        public Guid vehicle_id { get; set; }
-        [ForeignKey("vehicle_id")]
-        public Vehicle vehicle { get; set; }
-
     }
 }

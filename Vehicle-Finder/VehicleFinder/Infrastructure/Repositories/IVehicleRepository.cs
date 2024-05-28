@@ -9,7 +9,8 @@ namespace VehicleFinder.Infrastructure.Repositories.Interfaces
         Task<IEnumerable<Vehicle>> GetAllVehiclesAsync();
         Task<Vehicle> GetVehicleByIdAsync(Guid id);
         Task<Vehicle> AddVehicleAsync(Vehicle vehicle);
+
         Task<Vehicle> UpdateVehicleAsync(Vehicle vehicle);
-        Task<bool> DeleteVehicleAsync(Guid id);
+        Task<bool> DeleteVehicleAsync(Vehicle vehicle);
     }
 }

@@ -2,6 +2,7 @@
 using Infrastructure.Repositories;
 using System.Threading.Tasks;
 using VehicleFinder.Application.Interfaces;
+using VehicleFinder.Infrastructure.Repositories;
 using VehicleFinder.Infrastructure.Repositories.Interfaces;
 
 namespace Application.Services
@@ -22,22 +23,42 @@ namespace Application.Services
 
         public async Task<Engine> GetEngineByIdAsync(Guid id)
         {
+            var engine = await _engineRepository.GetEngineByIdAsync(id);
+            if (engine == null)
+                throw new KeyNotFoundException("Engine not found!");
+
             return await _engineRepository.GetEngineByIdAsync(id);
         }
 
         public async Task<Engine> AddEngineAsync(Engine engine)
         {
+            if (engine == null)
+                throw new ArgumentNullException(nameof(engine));
+
             return await _engineRepository.AddEngineAsync(engine);
         }
 
         public async Task<Engine> UpdateEngineAsync(Engine engine)
         {
+            if (engine == null)
+                throw new ArgumentNullException(nameof(engine));
+
+            var existingEngine = await _engineRepository.GetEngineByIdAsync(engine.Id);
+
+            if (existingEngine == null)
+                throw new KeyNotFoundException("Engine not found!");
+
             return await _engineRepository.UpdateEngineAsync(engine);
         }
 
         public async Task<bool> DeleteEngineAsync(Guid id)
         {
-            return await _engineRepository.DeleteEngineAsync(id);
+            var existingEngine = await _engineRepository.GetEngineByIdAsync(id);
+            if (existingEngine == null)
+            {
+                return false;
+            }
+            return await _engineRepository.DeleteEngineAsync(existingEngine);
         }
     }
 }

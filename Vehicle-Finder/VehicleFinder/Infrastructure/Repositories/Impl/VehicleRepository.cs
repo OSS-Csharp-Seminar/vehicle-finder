@@ -40,14 +40,8 @@ namespace VehicleFinder.Infrastructure.Repositories
             return vehicle;
         }
 
-        public async Task<bool> DeleteVehicleAsync(Guid id)
+        public async Task<bool> DeleteVehicleAsync(Vehicle vehicle)
         {
-            var vehicle = await _context.Vehicles.FindAsync(id);
-            if (vehicle == null)
-            {
-                return false;
-            }
-
             _context.Vehicles.Remove(vehicle);
             await _context.SaveChangesAsync();
             return true;

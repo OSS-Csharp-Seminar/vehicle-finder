@@ -13,6 +13,6 @@ namespace Infrastructure.Repositories
         Task<Engine> GetEngineByIdAsync(Guid id);
         Task<Engine> AddEngineAsync(Engine engine);
         Task<Engine> UpdateEngineAsync(Engine engine);
-        Task<bool> DeleteEngineAsync(Guid id);
+        Task<bool> DeleteEngineAsync(Engine engine);
     }
 }

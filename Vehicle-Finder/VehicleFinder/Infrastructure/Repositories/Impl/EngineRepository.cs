@@ -38,14 +38,8 @@ namespace Infrastructure.Repositories.Impl
             return engine;
         }
 
-        public async Task<bool> DeleteEngineAsync(Guid id)
+        public async Task<bool> DeleteEngineAsync(Engine engine)
         {
-            var engine = await _context.Engines.FindAsync(id);
-            if (engine == null)
-            {
-                return false;
-            }
-
             _context.Engines.Remove(engine);
             await _context.SaveChangesAsync();
             return true;
