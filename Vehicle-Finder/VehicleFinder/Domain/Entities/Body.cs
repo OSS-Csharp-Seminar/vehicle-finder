@@ -13,19 +13,18 @@ namespace Domain.Entities
     public class Body : BaseEntity
     {
         [Column("door_count")]
-        public int door_count { get; set; }
+        public int DoorCount { get; set; }
 
         [Column("seat_count")]
-        public int seat_count { get; set; }
-        
+        public int SeatCount { get; set; }
+
         [Column("ac_type")]
-        public AcTypes ac_type { get; set; }
+        public AcTypes AcType { get; set; }
 
         [Column("equipment")]
-        public CarEquipement equipment { get; set; } //takoder moze bit enum
+        public CarEquipement Equipment { get; set; } //takoder moze bit enum
 
         [Column("body_shape")]
-        public CarBodyShape body_shape { get; set; } //moze bit enum sa nekoliko opcija
-        
+        public CarBodyShape BodyShape { get; set; } //moze bit enum sa nekoliko opcija
     }
 }

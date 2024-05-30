@@ -12,17 +12,16 @@ namespace Domain.Entities
     public class Maintenance : BaseEntity
     {
         [Column("basic_cost")]
-        public float basic_cost { get; set; }
+        public float BasicCost { get; set; }
 
         [Column("full_cost")]
-        public float full_cost { get; set; }
+        public float FullCost { get; set; }
 
         [Column("basic_details")]
-        public string basic_details { get; set; }
+        public string BasicDetails { get; set; }
 
         [Column("full_details")]
-        public string full_details { get; set; }
-
+        public string FullDetails { get; set; }
 
     }
 }

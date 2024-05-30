@@ -13,33 +13,31 @@ namespace Domain.Entities
     public class Engine : BaseEntity
     {
         [Column("engine_name")]
-        public string engine_name { get; set; }
+        public string EngineName { get; set; }
 
         [Column("engine_type")]
-        public EngineType engine_type { get; set; }
+        public EngineType EngineType { get; set; }
 
         [Column("engine_power")]
-        public int engine_power { get; set; }
+        public int EnginePower { get; set; }
 
         [Column("shifter_type")]
-        public ShifterType shifter_type { get; set; }
+        public ShifterType ShifterType { get; set; }
 
         [Column("gear_count")]
-        public int gear_count { get; set; }
+        public int GearCount { get; set; }
 
         [Column("drive_type")]
-        public string drive_type { get; set; }
+        public string DriveType { get; set; }
 
         [Column("consumption")]
-        public float consumption { get; set; }
+        public float Consumption { get; set; }
 
         [Column("engine_capacity")]
-        public int engine_capacity { get; set; }
+        public int EngineCapacity { get; set; }
 
         [Column("cylinder_count")]
-        public int cylinder_count { get; set; }
-
-        public ICollection<Vehicle> engine_vehicles { get; } = new List<Vehicle>();
+        public int CylinderCount { get; set; }
 
     }
 }

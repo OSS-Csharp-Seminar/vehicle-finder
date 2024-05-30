@@ -10,29 +10,28 @@ namespace Domain.Entities
     {
         [Required]
         [Column("make")]
-        public string make { get; set; }
+        public string Make { get; set; }
 
         [Required]
         [Column("model")]
-        public string model { get; set; }
+        public string Model { get; set; }
 
         [Column("manufacture_year")]
-        public int manufacture_year { get; set; }
+        public int ManufactureYear { get; set; }
 
         [Column("model_year")]
-        public int model_year { get; set; }
+        public int ModelYear { get; set; }
 
         [Column("registration_until")]
-        public DateTime registration_until { get; set; }
+        public DateTime RegistrationUntil { get; set; }
 
         [Column("kilometers")]
-        public int kilometers { get; set; }
+        public int Kilometers { get; set; }
 
         [Column("owners_count")]
-        public int owners_count { get; set; }
-
-        public Engine? vehicle_engine { get; set; }
-        public Body? vehicle_body { get; set; }
-        public Maintenance? vehicle_maintenance { get; set; }
+        public int OwnersCount { get; set; }
+        public Engine? VehicleEngine { get; set; }
+        public Body? VehicleBody { get; set; }
+        public Maintenance? VehicleMaintenance { get; set; }
     }
 }

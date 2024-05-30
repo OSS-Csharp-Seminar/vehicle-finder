@@ -28,23 +28,23 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<int>("ac_type")
+                    b.Property<int>("AcType")
                         .HasColumnType("integer")
                         .HasColumnName("ac_type");
 
-                    b.Property<int>("body_shape")
+                    b.Property<int>("BodyShape")
                         .HasColumnType("integer")
                         .HasColumnName("body_shape");
 
-                    b.Property<int>("door_count")
+                    b.Property<int>("DoorCount")
                         .HasColumnType("integer")
                         .HasColumnName("door_count");
 
-                    b.Property<int>("equipment")
+                    b.Property<int>("Equipment")
                         .HasColumnType("integer")
                         .HasColumnName("equipment");
 
-                    b.Property<int>("seat_count")
+                    b.Property<int>("SeatCount")
                         .HasColumnType("integer")
                         .HasColumnName("seat_count");
 
@@ -59,41 +59,41 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<float>("consumption")
+                    b.Property<float>("Consumption")
                         .HasColumnType("real")
                         .HasColumnName("consumption");
 
-                    b.Property<int>("cylinder_count")
+                    b.Property<int>("CylinderCount")
                         .HasColumnType("integer")
                         .HasColumnName("cylinder_count");
 
-                    b.Property<string>("drive_type")
+                    b.Property<string>("DriveType")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("drive_type");
 
-                    b.Property<int>("engine_capacity")
+                    b.Property<int>("EngineCapacity")
                         .HasColumnType("integer")
                         .HasColumnName("engine_capacity");
 
-                    b.Property<string>("engine_name")
+                    b.Property<string>("EngineName")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("engine_name");
 
-                    b.Property<int>("engine_power")
+                    b.Property<int>("EnginePower")
                         .HasColumnType("integer")
                         .HasColumnName("engine_power");
 
-                    b.Property<int>("engine_type")
+                    b.Property<int>("EngineType")
                         .HasColumnType("integer")
                         .HasColumnName("engine_type");
 
-                    b.Property<int>("gear_count")
+                    b.Property<int>("GearCount")
                         .HasColumnType("integer")
                         .HasColumnName("gear_count");
 
-                    b.Property<int>("shifter_type")
+                    b.Property<int>("ShifterType")
                         .HasColumnType("integer")
                         .HasColumnName("shifter_type");
 
@@ -108,40 +108,46 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<string>("description")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("description");
 
-                    b.Property<string>("img_directory")
+                    b.Property<string>("ImgDirectory")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("img_directory");
 
-                    b.Property<bool>("is_sold")
+                    b.Property<bool>("IsSold")
                         .HasColumnType("boolean")
                         .HasColumnName("is_sold");
 
-                    b.Property<DateTime>("post_datetime")
+                    b.Property<DateTime>("PostDatetime")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("post_datetime");
 
-                    b.Property<decimal>("price")
+                    b.Property<decimal>("Price")
                         .HasColumnType("numeric")
                         .HasColumnName("price");
 
-                    b.Property<string>("title")
+                    b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("title");
 
-                    b.Property<Guid>("user_id")
+                    b.Property<Guid>("UserId")
                         .HasColumnType("uuid")
                         .HasColumnName("user_id");
 
-                    b.Property<Guid>("vehicle_id")
+                    b.Property<Guid>("VehicleId")
                         .HasColumnType("uuid")
                         .HasColumnName("vehicle_id");
+
+                    b.Property<Guid>("user_id")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("vehicle_id")
+                        .HasColumnType("uuid");
 
                     b.HasKey("Id");
 
@@ -149,7 +155,14 @@ namespace Infrastructure.Migrations
 
                     b.HasIndex("vehicle_id");
 
-                    b.ToTable("listing");
+                    b.ToTable("listing", t =>
+                        {
+                            t.Property("user_id")
+                                .HasColumnName("user_id1");
+
+                            t.Property("vehicle_id")
+                                .HasColumnName("vehicle_id1");
+                        });
                 });
 
             modelBuilder.Entity("Domain.Entities.Maintenance", b =>
@@ -158,20 +171,20 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<float>("basic_cost")
+                    b.Property<float>("BasicCost")
                         .HasColumnType("real")
                         .HasColumnName("basic_cost");
 
-                    b.Property<string>("basic_details")
+                    b.Property<string>("BasicDetails")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("basic_details");
 
-                    b.Property<float>("full_cost")
+                    b.Property<float>("FullCost")
                         .HasColumnType("real")
                         .HasColumnName("full_cost");
 
-                    b.Property<string>("full_details")
+                    b.Property<string>("FullDetails")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("full_details");
@@ -187,36 +200,36 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<DateTime>("birth_date")
+                    b.Property<DateTime>("BirthDate")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("birth_date");
 
-                    b.Property<string>("email")
+                    b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("email");
 
-                    b.Property<string>("first_name")
+                    b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("first_name");
 
-                    b.Property<string>("last_name")
+                    b.Property<string>("LastName")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("last_name");
 
-                    b.Property<string>("password_hash")
+                    b.Property<string>("PasswordHash")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("password_hash");
 
-                    b.Property<string>("phone_number")
+                    b.Property<string>("PhoneNumber")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("phone_number");
 
-                    b.Property<string>("user_name")
+                    b.Property<string>("UserName")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("user_name");
@@ -232,59 +245,54 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<Guid?>("BodyId")
+                        .HasColumnType("uuid");
+
                     b.Property<Guid?>("EngineId")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid?>("body_id")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid?>("engine_id")
-                        .HasColumnType("uuid");
-
-                    b.Property<int>("kilometers")
+                    b.Property<int>("Kilometers")
                         .HasColumnType("integer")
                         .HasColumnName("kilometers");
 
-                    b.Property<Guid?>("maintenance_id")
+                    b.Property<Guid?>("MaintenanceId")
                         .HasColumnType("uuid");
 
-                    b.Property<string>("make")
+                    b.Property<string>("Make")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("make");
 
-                    b.Property<int>("manufacture_year")
+                    b.Property<int>("ManufactureYear")
                         .HasColumnType("integer")
                         .HasColumnName("manufacture_year");
 
-                    b.Property<string>("model")
+                    b.Property<string>("Model")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("model");
 
-                    b.Property<int>("model_year")
+                    b.Property<int>("ModelYear")
                         .HasColumnType("integer")
                         .HasColumnName("model_year");
 
-                    b.Property<int>("owners_count")
+                    b.Property<int>("OwnersCount")
                         .HasColumnType("integer")
                         .HasColumnName("owners_count");
 
-                    b.Property<DateTime>("registration_until")
+                    b.Property<DateTime>("RegistrationUntil")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("registration_until");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EngineId");
-
-                    b.HasIndex("body_id")
+                    b.HasIndex("BodyId")
                         .IsUnique();
 
-                    b.HasIndex("engine_id")
+                    b.HasIndex("EngineId")
                         .IsUnique();
 
-                    b.HasIndex("maintenance_id")
+                    b.HasIndex("MaintenanceId")
                         .IsUnique();
 
                     b.ToTable("vehicle");
@@ -311,32 +319,23 @@ namespace Infrastructure.Migrations
 
             modelBuilder.Entity("Domain.Entities.Vehicle", b =>
                 {
-                    b.HasOne("Domain.Entities.Engine", null)
-                        .WithMany("engine_vehicles")
-                        .HasForeignKey("EngineId");
-
-                    b.HasOne("Domain.Entities.Body", "vehicle_body")
+                    b.HasOne("Domain.Entities.Body", "VehicleBody")
                         .WithOne()
-                        .HasForeignKey("Domain.Entities.Vehicle", "body_id");
+                        .HasForeignKey("Domain.Entities.Vehicle", "BodyId");
 
-                    b.HasOne("Domain.Entities.Engine", "vehicle_engine")
+                    b.HasOne("Domain.Entities.Engine", "VehicleEngine")
                         .WithOne()
-                        .HasForeignKey("Domain.Entities.Vehicle", "engine_id");
+                        .HasForeignKey("Domain.Entities.Vehicle", "EngineId");
 
-                    b.HasOne("Domain.Entities.Maintenance", "vehicle_maintenance")
+                    b.HasOne("Domain.Entities.Maintenance", "VehicleMaintenance")
                         .WithOne()
-                        .HasForeignKey("Domain.Entities.Vehicle", "maintenance_id");
+                        .HasForeignKey("Domain.Entities.Vehicle", "MaintenanceId");
 
-                    b.Navigation("vehicle_body");
+                    b.Navigation("VehicleBody");
 
-                    b.Navigation("vehicle_engine");
+                    b.Navigation("VehicleEngine");
 
-                    b.Navigation("vehicle_maintenance");
-                });
-
-            modelBuilder.Entity("Domain.Entities.Engine", b =>
-                {
-                    b.Navigation("engine_vehicles");
+                    b.Navigation("VehicleMaintenance");
                 });
 #pragma warning restore 612, 618
         }

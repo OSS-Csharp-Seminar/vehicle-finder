@@ -9,33 +9,33 @@ namespace Domain.Entities
     public class Listing : BaseEntity
     {
         [Column("user_id")]
-        public Guid user_id { get; set; }
+        public Guid UserId { get; set; }
 
         [ForeignKey("user_id")]
         public User User { get; set; }
 
         [Column("vehicle_id")]
-        public Guid vehicle_id { get; set; }
+        public Guid VehicleId { get; set; }
 
         [ForeignKey("vehicle_id")]
         public Vehicle Vehicle { get; set; }
 
         [Column("post_datetime")]
-        public DateTime post_datetime { get; set; }
+        public DateTime PostDatetime { get; set; }
 
         [Column("title")]
-        public string title { get; set; }
+        public string Title { get; set; }
 
         [Column("description")]
-        public string description { get; set; }
+        public string Description { get; set; }
 
         [Column("price")]
-        public decimal price { get; set; }
+        public decimal Price { get; set; }
 
         [Column("is_sold")]
-        public bool is_sold { get; set; }
+        public bool IsSold { get; set; }
 
         [Column("img_directory")]
-        public string img_directory { get; set; }
+        public string ImgDirectory { get; set; }
     }
 }

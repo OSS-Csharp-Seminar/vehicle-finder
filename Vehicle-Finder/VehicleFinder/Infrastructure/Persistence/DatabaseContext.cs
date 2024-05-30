@@ -15,19 +15,19 @@ namespace Infrastructure.Persistence
             modelBuilder.UseSerialColumns();
 
             modelBuilder.Entity<Vehicle>()
-                .HasOne(v => v.vehicle_body)
+                .HasOne(v => v.VehicleBody)
                 .WithOne()
-                .HasForeignKey<Vehicle>("body_id");
+                .HasForeignKey<Vehicle>("BodyId");
 
             modelBuilder.Entity<Vehicle>()
-                .HasOne(v => v.vehicle_maintenance)
+                .HasOne(v => v.VehicleMaintenance)
                 .WithOne()
-                .HasForeignKey<Vehicle>("maintenance_id");
+                .HasForeignKey<Vehicle>("MaintenanceId");
 
             modelBuilder.Entity<Vehicle>()
-                .HasOne(v => v.vehicle_engine)
+                .HasOne(v => v.VehicleEngine)
                 .WithOne()
-                .HasForeignKey<Vehicle>("engine_id"); 
+                .HasForeignKey<Vehicle>("EngineId"); 
         }
 
         public DbSet<Body> Bodies { get; set; }

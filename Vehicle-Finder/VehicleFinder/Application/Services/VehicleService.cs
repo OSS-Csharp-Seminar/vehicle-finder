@@ -1,5 +1,6 @@
 ﻿using Domain.Entities;
 using Infrastructure.Repositories;
+using Infrastructure.Repositories.Impl;
 using VehicleFinder.Application.Interfaces;
 using VehicleFinder.Infrastructure.Repositories.Interfaces;
 
@@ -9,11 +10,15 @@ namespace Application.Services
     {
         private readonly IVehicleRepository _vehicleRepository;
         private readonly IEngineRepository _engineRepository;
+        private readonly IBodyRepository _bodyRepository;
+        private readonly IMaintenanceRepository _maintenanceRepository;
 
-        public VehicleService(IVehicleRepository vehicleRepository, IEngineRepository engineRepository)
+        public VehicleService(IVehicleRepository vehicleRepository, IEngineRepository engineRepository, IBodyRepository bodyRepository, IMaintenanceRepository maintenanceRepository)
         {
             _vehicleRepository = vehicleRepository;
             _engineRepository = engineRepository;
+            _bodyRepository = bodyRepository;
+            _maintenanceRepository = maintenanceRepository;
         }
 
         public async Task<IEnumerable<Vehicle>> GetAllVehiclesAsync()
@@ -35,8 +40,36 @@ namespace Application.Services
             if (vehicle == null)
                 throw new ArgumentNullException(nameof(vehicle));
 
+            if (vehicle.VehicleBody != null && vehicle.VehicleBody.Id != Guid.Empty)
+            {
+                var existingBody = await _bodyRepository.GetBodyByIdAsync(vehicle.VehicleBody.Id);
+                if (existingBody != null)
+                {
+                    vehicle.VehicleBody = existingBody;
+                }
+            }
+
+            if (vehicle.VehicleEngine != null && vehicle.VehicleEngine.Id != Guid.Empty)
+            {
+                var existingEngine = await _engineRepository.GetEngineByIdAsync(vehicle.VehicleEngine.Id);
+                if (existingEngine != null)
+                {
+                    vehicle.VehicleEngine = existingEngine;
+                }
+            }
+
+            if (vehicle.VehicleMaintenance != null && vehicle.VehicleMaintenance.Id != Guid.Empty)
+            {
+                var existingMaintenance = await _maintenanceRepository.GetMaintenanceByIdAsync(vehicle.VehicleMaintenance.Id);
+                if (existingMaintenance != null)
+                {
+                    vehicle.VehicleMaintenance = existingMaintenance;
+                }
+            }
+
             return await _vehicleRepository.AddVehicleAsync(vehicle);
         }
+
 
         public async Task<Vehicle> UpdateVehicleAsync(Vehicle vehicle)
         {

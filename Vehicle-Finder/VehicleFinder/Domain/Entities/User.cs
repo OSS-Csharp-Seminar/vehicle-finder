@@ -9,24 +9,24 @@ namespace Domain.Entities
     public class User : BaseEntity
     {
         [Column("user_name")]
-        public string user_name { get; set; }
+        public string UserName { get; set; }
 
         [Column("email")]
-        public string email { get; set; }
+        public string Email { get; set; }
 
         [Column("phone_number")]
-        public string phone_number { get; set; }
+        public string PhoneNumber { get; set; }
 
         [Column("birth_date")]
-        public DateTime birth_date { get; set; }
+        public DateTime BirthDate { get; set; }
 
         [Column("password_hash")]
-        public string password_hash { get; set; }
+        public string PasswordHash { get; set; }
 
         [Column("first_name")]
-        public string first_name { get; set; }
+        public string FirstName { get; set; }
 
         [Column("last_name")]
-        public string last_name { get; set; }
+        public string LastName { get; set; }
     }
 }
