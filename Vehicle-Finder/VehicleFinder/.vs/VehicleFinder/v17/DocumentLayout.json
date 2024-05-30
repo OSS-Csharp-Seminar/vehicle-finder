@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\infrastructure\\repositories\\impl\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\impl\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C833661-681C-4B8A-B061-71899AFAB4EA}|Application\\Application.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\application\\services\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C833661-681C-4B8A-B061-71899AFAB4EA}|Application\\Application.csproj|solutionrelative:application\\services\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C833661-681C-4B8A-B061-71899AFAB4EA}|Application\\Application.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\application\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C833661-681C-4B8A-B061-71899AFAB4EA}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{461874DB-C548-4851-93FB-20D0031006C9}|WebApi\\WebApi.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\webapi\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{461874DB-C548-4851-93FB-20D0031006C9}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\infrastructure\\repositories\\impl\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\impl\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{461874DB-C548-4851-93FB-20D0031006C9}|WebApi\\WebApi.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{461874DB-C548-4851-93FB-20D0031006C9}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\infrastructure\\repositories\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\infrastructure\\persistence\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C833661-681C-4B8A-B061-71899AFAB4EA}|Application\\Application.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\application\\interfaces\\ibodyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C833661-681C-4B8A-B061-71899AFAB4EA}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ibodyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\infrastructure\\migrations\\20240530191715_inital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\maintenance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\domain\\enums\\equipement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\equipement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -59,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\imaintenancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\infrastructure\\repositories\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\infrastructure\\repositories\\ienginerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\ienginerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -75,24 +95,12 @@
       "RelativeMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\impl\\enginerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\infrastructure\\persistence\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3AD1E94-FF59-47CC-9998-7A208D27F769}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C833661-681C-4B8A-B061-71899AFAB4EA}|Application\\Application.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\application\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C833661-681C-4B8A-B061-71899AFAB4EA}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\domain\\entities\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\domain\\entities\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86C0B1A2-E556-495D-9545-0187C2BA8BCE}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{461874DB-C548-4851-93FB-20D0031006C9}|WebApi\\WebApi.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\webapi\\controllers\\maintenancecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -105,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{461874DB-C548-4851-93FB-20D0031006C9}|WebApi\\WebApi.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\webapi\\controllers\\enginecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{461874DB-C548-4851-93FB-20D0031006C9}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\enginecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C833661-681C-4B8A-B061-71899AFAB4EA}|Application\\Application.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\application\\interfaces\\ibodyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C833661-681C-4B8A-B061-71899AFAB4EA}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ibodyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C833661-681C-4B8A-B061-71899AFAB4EA}|Application\\Application.csproj|c:\\users\\marino\\documents\\programiranje\\carfinderc#\\vehicle-finder\\vehiclefinder\\application\\interfaces\\iengineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -141,7 +145,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -153,20 +157,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Maintenance.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Maintenance.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Maintenance.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Maintenance.cs",
-              "RelativeToolTip": "Domain\\Entities\\Maintenance.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Vehicle.cs",
+              "RelativeToolTip": "Domain\\Entities\\Vehicle.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwCkAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T19:16:16.953Z",
+              "WhenOpened": "2024-05-30T10:22:40.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
@@ -179,150 +183,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Equipement.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Enums\\Equipement.cs",
-              "RelativeDocumentMoniker": "Domain\\Enums\\Equipement.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Enums\\Equipement.cs",
-              "RelativeToolTip": "Domain\\Enums\\Equipement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T19:16:09.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Body.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Body.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Body.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Body.cs",
-              "RelativeToolTip": "Domain\\Entities\\Body.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABWAAAA",
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Persistence\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Persistence\\DatabaseContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\DatabaseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T19:15:08.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VehicleService.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\VehicleService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\VehicleService.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\VehicleService.cs",
-              "RelativeToolTip": "Application\\Services\\VehicleService.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwEYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:35:51.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BodyService.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\BodyService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\BodyService.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\BodyService.cs",
-              "RelativeToolTip": "Application\\Services\\BodyService.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAIwCcAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T11:08:07.81Z",
+              "WhenOpened": "2024-05-30T10:31:48.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EngineService.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\EngineService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\EngineService.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\EngineService.cs",
-              "RelativeToolTip": "Application\\Services\\EngineService.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T11:26:26.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VehicleController.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\WebApi\\Controllers\\VehicleController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\VehicleController.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\WebApi\\Controllers\\VehicleController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\VehicleController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T11:36:32.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240530191715_Inital.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Migrations\\20240530191715_Inital.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240530191715_Inital.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Migrations\\20240530191715_Inital.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20240530191715_Inital.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T19:17:18.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VehicleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\Impl\\VehicleRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Impl\\VehicleRepository.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\Impl\\VehicleRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\Impl\\VehicleRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBkAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T19:16:04.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ShifterType.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Enums\\ShifterType.cs",
-              "RelativeDocumentMoniker": "Domain\\Enums\\ShifterType.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Enums\\ShifterType.cs",
-              "RelativeToolTip": "Domain\\Enums\\ShifterType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T19:16:09.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IMaintenanceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\IMaintenanceRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\IMaintenanceRepository.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\IMaintenanceRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\IMaintenanceRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T19:16:06.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MaintenanceService.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\MaintenanceService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\MaintenanceService.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\MaintenanceService.cs",
-              "RelativeToolTip": "Application\\Services\\MaintenanceService.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAwwC0AAABfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T11:25:45.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "IVehicleRepository.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\IVehicleRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\IVehicleRepository.cs",
@@ -335,7 +209,193 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EngineService.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\EngineService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\EngineService.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\EngineService.cs",
+              "RelativeToolTip": "Application\\Services\\EngineService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T11:26:26.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IVehicleService.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Interfaces\\IVehicleService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IVehicleService.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Interfaces\\IVehicleService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IVehicleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T10:35:49.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VehicleService.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\VehicleService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\VehicleService.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\VehicleService.cs",
+              "RelativeToolTip": "Application\\Services\\VehicleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T10:35:51.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\Impl\\VehicleRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Impl\\VehicleRepository.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\Impl\\VehicleRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\Impl\\VehicleRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:16:04.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\WebApi\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\WebApi\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\VehicleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T11:36:32.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebApi",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-30T20:17:14.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IBodyService.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Interfaces\\IBodyService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IBodyService.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Interfaces\\IBodyService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IBodyService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T10:35:51.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240530191715_Inital.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Migrations\\20240530191715_Inital.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240530191715_Inital.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Migrations\\20240530191715_Inital.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20240530191715_Inital.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:17:18.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BodyService.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\BodyService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\BodyService.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\BodyService.cs",
+              "RelativeToolTip": "Application\\Services\\BodyService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAIwCcAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T11:08:07.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Body.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Body.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Body.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Body.cs",
+              "RelativeToolTip": "Domain\\Entities\\Body.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:15:08.051Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "Equipement.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Enums\\Equipement.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\Equipement.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Enums\\Equipement.cs",
+              "RelativeToolTip": "Domain\\Enums\\Equipement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:16:09.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Maintenance.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Maintenance.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Maintenance.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Maintenance.cs",
+              "RelativeToolTip": "Domain\\Entities\\Maintenance.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:16:16.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ShifterType.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Enums\\ShifterType.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\ShifterType.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Enums\\ShifterType.cs",
+              "RelativeToolTip": "Domain\\Enums\\ShifterType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:16:09.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IMaintenanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\IMaintenanceRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\IMaintenanceRepository.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\IMaintenanceRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\IMaintenanceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T19:16:06.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MaintenanceService.cs",
+              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\MaintenanceService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\MaintenanceService.cs",
+              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Services\\MaintenanceService.cs",
+              "RelativeToolTip": "Application\\Services\\MaintenanceService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAwwC0AAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T11:25:45.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "MaintenanceRepository.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\Impl\\MaintenanceRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Impl\\MaintenanceRepository.cs",
@@ -343,12 +403,11 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\Impl\\MaintenanceRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T19:16:03.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T19:16:03.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Engine.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Engine.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Engine.cs",
@@ -356,12 +415,11 @@
               "RelativeToolTip": "Domain\\Entities\\Engine.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA7wCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T19:15:01.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T19:15:01.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Listing.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Listing.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Listing.cs",
@@ -369,12 +427,11 @@
               "RelativeToolTip": "Domain\\Entities\\Listing.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T19:14:53.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T19:14:53.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "IBodyRepository.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\IBodyRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\IBodyRepository.cs",
@@ -382,25 +439,11 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\IBodyRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:56:28.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T10:56:28.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IVehicleService.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Interfaces\\IVehicleService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IVehicleService.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Interfaces\\IVehicleService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IVehicleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:35:49.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "IEngineRepository.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\IEngineRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\IEngineRepository.cs",
@@ -408,12 +451,11 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\IEngineRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:56:29.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T10:56:29.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "MaintenanceController .cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\WebApi\\Controllers\\MaintenanceController .cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\MaintenanceController .cs",
@@ -421,25 +463,11 @@
               "RelativeToolTip": "WebApi\\Controllers\\MaintenanceController .cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAYwBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T11:49:04.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T11:49:04.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DatabaseContext.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Persistence\\DatabaseContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\DatabaseContext.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Persistence\\DatabaseContext.cs",
-              "RelativeToolTip": "Infrastructure\\Persistence\\DatabaseContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:31:48.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "EngineRepository.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\Impl\\EngineRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Impl\\EngineRepository.cs",
@@ -447,12 +475,11 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\Impl\\EngineRepository.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:56:55.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T10:56:55.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "IEngineService.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Interfaces\\IEngineService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IEngineService.cs",
@@ -464,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "IMaintenanceService.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Interfaces\\IMaintenanceService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IMaintenanceService.cs",
@@ -476,20 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Vehicle.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Vehicle.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Domain\\Entities\\Vehicle.cs",
-              "RelativeToolTip": "Domain\\Entities\\Vehicle.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:22:40.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "BodyController.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\WebApi\\Controllers\\BodyController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\BodyController.cs",
@@ -501,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "EngineController.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\WebApi\\Controllers\\EngineController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\EngineController.cs",
@@ -513,19 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IBodyService.cs",
-              "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Interfaces\\IBodyService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IBodyService.cs",
-              "ToolTip": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Interfaces\\IBodyService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IBodyService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:35:51.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "BodyRepository.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Repositories\\Impl\\BodyRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\Impl\\BodyRepository.cs",
@@ -537,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
@@ -549,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
@@ -561,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "BodyRepository.cs",
               "DocumentMoniker": "C:\\Users\\Marino\\Desktop\\New folder (2)\\BodyRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\New folder (2)\\BodyRepository.cs",

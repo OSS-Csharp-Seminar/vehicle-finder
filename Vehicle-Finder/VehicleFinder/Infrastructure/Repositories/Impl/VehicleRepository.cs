@@ -18,12 +18,25 @@ namespace VehicleFinder.Infrastructure.Repositories
 
         public async Task<IEnumerable<Vehicle>> GetAllVehiclesAsync()
         {
-            return await _context.Vehicles.ToListAsync();
+            return await _context.Vehicles
+                .Include(v => v.VehicleEngine)
+                .Include(v => v.VehicleBody)
+                .Include(v => v.VehicleMaintenance)
+                .ToListAsync();
         }
 
         public async Task<Vehicle> GetVehicleByIdAsync(Guid id)
         {
-            return await _context.Vehicles.FindAsync(id);
+            var vehicle = await _context.Vehicles
+                .Include(v => v.VehicleEngine)
+                .Include(v => v.VehicleBody)
+                .Include(v => v.VehicleMaintenance)
+                .FirstOrDefaultAsync(v => v.Id == id);
+
+            if (vehicle == null)
+                throw new KeyNotFoundException("Vehicle not found!");
+
+            return vehicle;
         }
 
         public async Task<Vehicle> AddVehicleAsync(Vehicle vehicle)

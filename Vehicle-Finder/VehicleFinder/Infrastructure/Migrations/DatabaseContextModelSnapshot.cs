@@ -245,18 +245,9 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<Guid?>("BodyId")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid?>("EngineId")
-                        .HasColumnType("uuid");
-
                     b.Property<int>("Kilometers")
                         .HasColumnType("integer")
                         .HasColumnName("kilometers");
-
-                    b.Property<Guid?>("MaintenanceId")
-                        .HasColumnType("uuid");
 
                     b.Property<string>("Make")
                         .IsRequired()
@@ -284,16 +275,22 @@ namespace Infrastructure.Migrations
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("registration_until");
 
+                    b.Property<Guid?>("VehicleBodyId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid?>("VehicleEngineId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid?>("VehicleMaintenanceId")
+                        .HasColumnType("uuid");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("BodyId")
-                        .IsUnique();
+                    b.HasIndex("VehicleBodyId");
 
-                    b.HasIndex("EngineId")
-                        .IsUnique();
+                    b.HasIndex("VehicleEngineId");
 
-                    b.HasIndex("MaintenanceId")
-                        .IsUnique();
+                    b.HasIndex("VehicleMaintenanceId");
 
                     b.ToTable("vehicle");
                 });
@@ -320,16 +317,16 @@ namespace Infrastructure.Migrations
             modelBuilder.Entity("Domain.Entities.Vehicle", b =>
                 {
                     b.HasOne("Domain.Entities.Body", "VehicleBody")
-                        .WithOne()
-                        .HasForeignKey("Domain.Entities.Vehicle", "BodyId");
+                        .WithMany()
+                        .HasForeignKey("VehicleBodyId");
 
                     b.HasOne("Domain.Entities.Engine", "VehicleEngine")
-                        .WithOne()
-                        .HasForeignKey("Domain.Entities.Vehicle", "EngineId");
+                        .WithMany()
+                        .HasForeignKey("VehicleEngineId");
 
                     b.HasOne("Domain.Entities.Maintenance", "VehicleMaintenance")
-                        .WithOne()
-                        .HasForeignKey("Domain.Entities.Vehicle", "MaintenanceId");
+                        .WithMany()
+                        .HasForeignKey("VehicleMaintenanceId");
 
                     b.Navigation("VehicleBody");
 
