@@ -1,13 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AutoMapper.Configuration;
-using Domain.Entities;
-using Microsoft.AspNet.Identity;
+﻿using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 namespace Infrastructure.Persistence
 {
@@ -21,6 +13,21 @@ namespace Infrastructure.Persistence
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.UseSerialColumns();
+
+            modelBuilder.Entity<Vehicle>()
+                .HasOne(v => v.vehicle_body)
+                .WithOne()
+                .HasForeignKey<Vehicle>("body_id");
+
+            modelBuilder.Entity<Vehicle>()
+                .HasOne(v => v.vehicle_maintenance)
+                .WithOne()
+                .HasForeignKey<Vehicle>("maintenance_id");
+
+            modelBuilder.Entity<Vehicle>()
+                .HasOne(v => v.vehicle_engine)
+                .WithOne()
+                .HasForeignKey<Vehicle>("engine_id"); 
         }
 
         public DbSet<Body> Bodies { get; set; }

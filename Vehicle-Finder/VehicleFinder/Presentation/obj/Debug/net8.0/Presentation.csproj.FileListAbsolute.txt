@@ -1,4 +1,5 @@
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\bin\Debug\net8.0\Presentation.deps.json
+C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\bin\Debug\net8.0\Presentation.runtimeconfig.json
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\bin\Debug\net8.0\Presentation.dll
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\bin\Debug\net8.0\Presentation.pdb
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\obj\Debug\net8.0\Presentation.csproj.AssemblyReference.cache
@@ -6,10 +7,9 @@ C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfoInputs.cache
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfo.cs
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\obj\Debug\net8.0\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\obj\Debug\net8.0\Presentation.sourcelink.json
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\obj\Debug\net8.0\Presentation.dll
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\obj\Debug\net8.0\refint\Presentation.dll
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\obj\Debug\net8.0\Presentation.pdb
-C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\obj\Debug\net8.0\ref\Presentation.dll
-C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\bin\Debug\net8.0\Presentation.runtimeconfig.json
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\obj\Debug\net8.0\Presentation.genruntimeconfig.cache
-C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\obj\Debug\net8.0\Presentation.sourcelink.json
+C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\Presentation\obj\Debug\net8.0\ref\Presentation.dll

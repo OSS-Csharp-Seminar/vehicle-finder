@@ -109,6 +109,7 @@ C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\WebApi.csproj.CoreCompileInputs.cache
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
@@ -123,4 +124,3 @@ C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\ref\WebApi.dll
-C:\Users\Marino\Documents\Programiranje\CarFinderC#\Vehicle-Finder\VehicleFinder\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json

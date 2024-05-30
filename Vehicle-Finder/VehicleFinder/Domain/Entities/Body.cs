@@ -26,6 +26,6 @@ namespace Domain.Entities
 
         [Column("body_shape")]
         public CarBodyShape body_shape { get; set; } //moze bit enum sa nekoliko opcija
-
+        
     }
 }

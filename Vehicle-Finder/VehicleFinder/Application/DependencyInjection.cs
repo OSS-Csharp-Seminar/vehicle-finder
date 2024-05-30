@@ -13,6 +13,8 @@ namespace Application
 
             services.AddScoped<IVehicleService, VehicleService>();
             services.AddScoped<IEngineService, EngineService>();
+            services.AddScoped<IBodyService, BodyService>();
+            services.AddScoped<IMaintenanceService, MaintenanceService>();
 
             services.AddMediatR(configuration => configuration.RegisterServicesFromAssembly(assembly));
 

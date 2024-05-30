@@ -35,21 +35,6 @@ namespace Application.Services
             if (vehicle == null)
                 throw new ArgumentNullException(nameof(vehicle));
 
-            if (vehicle.Engine != null)
-            {
-                var createdEngine = await _engineRepository.AddEngineAsync(vehicle.Engine);
-                vehicle.Engine = createdEngine;
-                vehicle.EngineId = createdEngine.Id;
-            }
-            else if (vehicle.EngineId.HasValue)
-            {
-                var existingEngine = await _engineRepository.GetEngineByIdAsync(vehicle.EngineId.Value);
-                if (existingEngine == null)
-                    throw new KeyNotFoundException("Engine not found!");
-
-                vehicle.Engine = existingEngine;
-            }
-
             return await _vehicleRepository.AddVehicleAsync(vehicle);
         }
 

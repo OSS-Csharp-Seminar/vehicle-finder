@@ -31,9 +31,8 @@ namespace Domain.Entities
         [Column("owners_count")]
         public int owners_count { get; set; }
 
-        [ForeignKey("EngineId")]
-        public Guid? EngineId { get; set; }
-
-        public Engine? Engine { get; set; }
+        public Engine? vehicle_engine { get; set; }
+        public Body? vehicle_body { get; set; }
+        public Maintenance? vehicle_maintenance { get; set; }
     }
 }

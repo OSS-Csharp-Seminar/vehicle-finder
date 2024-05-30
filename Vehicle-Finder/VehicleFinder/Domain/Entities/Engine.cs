@@ -39,5 +39,7 @@ namespace Domain.Entities
         [Column("cylinder_count")]
         public int cylinder_count { get; set; }
 
+        public ICollection<Vehicle> engine_vehicles { get; } = new List<Vehicle>();
+
     }
 }

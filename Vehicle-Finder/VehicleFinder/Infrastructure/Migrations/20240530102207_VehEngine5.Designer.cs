@@ -9,18 +9,18 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace Infrastructure.Infrastructure.Migrations
+namespace Infrastructure.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20240525200315_UpdateForeignKeyTypes")]
-    partial class UpdateForeignKeyTypes
+    [Migration("20240530102207_VehEngine5")]
+    partial class VehEngine5
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.4")
+                .HasAnnotation("ProductVersion", "8.0.6")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseSerialColumns(modelBuilder);
@@ -100,13 +100,7 @@ namespace Infrastructure.Infrastructure.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("shifter_type");
 
-                    b.Property<Guid>("vehicle_id")
-                        .HasColumnType("uuid");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("vehicle_id")
-                        .IsUnique();
 
                     b.ToTable("car_engine");
                 });
@@ -241,9 +235,19 @@ namespace Infrastructure.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
+                    b.Property<Guid?>("body_id")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid?>("engine_id")
+                        .HasColumnType("uuid")
+                        .HasColumnName("engine_id");
+
                     b.Property<int>("kilometers")
                         .HasColumnType("integer")
                         .HasColumnName("kilometers");
+
+                    b.Property<Guid?>("maintenance_id")
+                        .HasColumnType("uuid");
 
                     b.Property<string>("make")
                         .IsRequired()
@@ -271,20 +275,18 @@ namespace Infrastructure.Infrastructure.Migrations
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("registration_until");
 
+                    b.Property<Guid?>("vehicle_engineId")
+                        .HasColumnType("uuid");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("body_id");
+
+                    b.HasIndex("maintenance_id");
+
+                    b.HasIndex("vehicle_engineId");
+
                     b.ToTable("vehicle");
-                });
-
-            modelBuilder.Entity("Domain.Entities.Engine", b =>
-                {
-                    b.HasOne("Domain.Entities.Vehicle", "vehicle")
-                        .WithOne("engine")
-                        .HasForeignKey("Domain.Entities.Engine", "vehicle_id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("vehicle");
                 });
 
             modelBuilder.Entity("Domain.Entities.Listing", b =>
@@ -308,8 +310,28 @@ namespace Infrastructure.Infrastructure.Migrations
 
             modelBuilder.Entity("Domain.Entities.Vehicle", b =>
                 {
-                    b.Navigation("engine")
-                        .IsRequired();
+                    b.HasOne("Domain.Entities.Body", "vehicle_body")
+                        .WithMany()
+                        .HasForeignKey("body_id");
+
+                    b.HasOne("Domain.Entities.Maintenance", "vehicle_maintenance")
+                        .WithMany()
+                        .HasForeignKey("maintenance_id");
+
+                    b.HasOne("Domain.Entities.Engine", "vehicle_engine")
+                        .WithMany("engine_vehicles")
+                        .HasForeignKey("vehicle_engineId");
+
+                    b.Navigation("vehicle_body");
+
+                    b.Navigation("vehicle_engine");
+
+                    b.Navigation("vehicle_maintenance");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Engine", b =>
+                {
+                    b.Navigation("engine_vehicles");
                 });
 #pragma warning restore 612, 618
         }

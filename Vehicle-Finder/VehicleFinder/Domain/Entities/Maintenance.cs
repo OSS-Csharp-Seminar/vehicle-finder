@@ -16,12 +16,13 @@ namespace Domain.Entities
 
         [Column("full_cost")]
         public float full_cost { get; set; }
-        
+
         [Column("basic_details")]
         public string basic_details { get; set; }
 
         [Column("full_details")]
         public string full_details { get; set; }
+
 
     }
 }

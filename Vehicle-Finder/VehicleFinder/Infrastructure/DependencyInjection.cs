@@ -18,6 +18,8 @@ namespace VehicleFinder.Infrastructure
 
             services.AddScoped<IVehicleRepository, VehicleRepository>();
             services.AddScoped<IEngineRepository, EngineRepository>();
+            services.AddScoped<IBodyRepository, BodyRepository>();
+            services.AddScoped<IMaintenanceRepository, MaintenanceRepository>();
 
             return services;
         }
