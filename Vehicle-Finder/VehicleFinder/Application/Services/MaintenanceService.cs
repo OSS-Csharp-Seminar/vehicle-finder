@@ -5,7 +5,7 @@ using VehicleFinder.Application.Interfaces;
 using VehicleFinder.Infrastructure.Repositories;
 using VehicleFinder.Infrastructure.Repositories.Interfaces;
 
-namespace Application.Services
+namespace VehicleFinder.Application.Services
 {
     public class MaintenanceService : IMaintenanceService
     {

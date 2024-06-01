@@ -6,6 +6,7 @@ using VehicleFinder.Infrastructure.Repositories;
 using VehicleFinder.Infrastructure.Repositories.Interfaces;
 using Infrastructure.Repositories;
 using Infrastructure.Repositories.Impl;
+using VehicleFinder.Infrastructure.Repositories.Impl;
 
 namespace VehicleFinder.Infrastructure
 {
@@ -20,6 +21,7 @@ namespace VehicleFinder.Infrastructure
             services.AddScoped<IEngineRepository, EngineRepository>();
             services.AddScoped<IBodyRepository, BodyRepository>();
             services.AddScoped<IMaintenanceRepository, MaintenanceRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
 
             return services;
         }

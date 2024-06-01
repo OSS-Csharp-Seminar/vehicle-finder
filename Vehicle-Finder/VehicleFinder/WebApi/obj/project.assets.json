@@ -7744,23 +7744,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marino\\.nuget\\packages\\": {},
+    "C:\\Users\\Ante\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Ante\\source\\repos\\vehicle-finder\\Vehicle-Finder\\VehicleFinder\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\Marino\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\WebApi\\obj\\",
+      "projectPath": "C:\\Users\\Ante\\source\\repos\\vehicle-finder\\Vehicle-Finder\\VehicleFinder\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\Ante\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ante\\source\\repos\\vehicle-finder\\Vehicle-Finder\\VehicleFinder\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Marino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ante\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7776,14 +7776,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Application\\Application.csproj"
+            "C:\\Users\\Ante\\source\\repos\\vehicle-finder\\Vehicle-Finder\\VehicleFinder\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Ante\\source\\repos\\vehicle-finder\\Vehicle-Finder\\VehicleFinder\\Application\\Application.csproj"
             },
-            "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Ante\\source\\repos\\vehicle-finder\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Ante\\source\\repos\\vehicle-finder\\Vehicle-Finder\\VehicleFinder\\Infrastructure\\Infrastructure.csproj"
             },
-            "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Presentation\\Presentation.csproj": {
-              "projectPath": "C:\\Users\\Marino\\Documents\\Programiranje\\CarFinderC#\\Vehicle-Finder\\VehicleFinder\\Presentation\\Presentation.csproj"
+            "C:\\Users\\Ante\\source\\repos\\vehicle-finder\\Vehicle-Finder\\VehicleFinder\\Presentation\\Presentation.csproj": {
+              "projectPath": "C:\\Users\\Ante\\source\\repos\\vehicle-finder\\Vehicle-Finder\\VehicleFinder\\Presentation\\Presentation.csproj"
             }
           }
         }
@@ -7792,11 +7792,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -7837,7 +7832,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

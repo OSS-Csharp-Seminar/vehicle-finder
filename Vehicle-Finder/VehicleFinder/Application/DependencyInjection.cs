@@ -2,6 +2,7 @@
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using VehicleFinder.Application.Interfaces;
+using VehicleFinder.Application.Services;
 
 namespace Application
 {
@@ -15,6 +16,7 @@ namespace Application
             services.AddScoped<IEngineService, EngineService>();
             services.AddScoped<IBodyService, BodyService>();
             services.AddScoped<IMaintenanceService, MaintenanceService>();
+            services.AddScoped<IUserService, UserService>();
 
             services.AddMediatR(configuration => configuration.RegisterServicesFromAssembly(assembly));
 
