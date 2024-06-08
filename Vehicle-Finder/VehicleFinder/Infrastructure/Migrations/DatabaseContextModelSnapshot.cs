@@ -59,17 +59,12 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<float>("Consumption")
-                        .HasColumnType("real")
-                        .HasColumnName("consumption");
-
                     b.Property<int>("CylinderCount")
                         .HasColumnType("integer")
                         .HasColumnName("cylinder_count");
 
-                    b.Property<string>("DriveType")
-                        .IsRequired()
-                        .HasColumnType("text")
+                    b.Property<int>("DriveType")
+                        .HasColumnType("integer")
                         .HasColumnName("drive_type");
 
                     b.Property<int>("EngineCapacity")
@@ -244,6 +239,10 @@ namespace Infrastructure.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
+
+                    b.Property<float>("Consumption")
+                        .HasColumnType("real")
+                        .HasColumnName("consumption");
 
                     b.Property<int>("Kilometers")
                         .HasColumnType("integer")

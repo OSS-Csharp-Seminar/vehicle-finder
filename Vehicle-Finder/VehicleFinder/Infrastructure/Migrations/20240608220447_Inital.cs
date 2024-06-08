@@ -37,8 +37,7 @@ namespace Infrastructure.Migrations
                     engine_power = table.Column<int>(type: "integer", nullable: false),
                     shifter_type = table.Column<int>(type: "integer", nullable: false),
                     gear_count = table.Column<int>(type: "integer", nullable: false),
-                    drive_type = table.Column<string>(type: "text", nullable: false),
-                    consumption = table.Column<float>(type: "real", nullable: false),
+                    drive_type = table.Column<int>(type: "integer", nullable: false),
                     engine_capacity = table.Column<int>(type: "integer", nullable: false),
                     cylinder_count = table.Column<int>(type: "integer", nullable: false)
                 },
@@ -92,26 +91,27 @@ namespace Infrastructure.Migrations
                     registration_until = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     kilometers = table.Column<int>(type: "integer", nullable: false),
                     owners_count = table.Column<int>(type: "integer", nullable: false),
-                    EngineId = table.Column<Guid>(type: "uuid", nullable: true),
-                    BodyId = table.Column<Guid>(type: "uuid", nullable: true),
-                    MaintenanceId = table.Column<Guid>(type: "uuid", nullable: true)
+                    consumption = table.Column<float>(type: "real", nullable: false),
+                    VehicleEngineId = table.Column<Guid>(type: "uuid", nullable: true),
+                    VehicleBodyId = table.Column<Guid>(type: "uuid", nullable: true),
+                    VehicleMaintenanceId = table.Column<Guid>(type: "uuid", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_vehicle", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_vehicle_car_body_BodyId",
-                        column: x => x.BodyId,
+                        name: "FK_vehicle_car_body_VehicleBodyId",
+                        column: x => x.VehicleBodyId,
                         principalTable: "car_body",
                         principalColumn: "Id");
                     table.ForeignKey(
-                        name: "FK_vehicle_car_engine_EngineId",
-                        column: x => x.EngineId,
+                        name: "FK_vehicle_car_engine_VehicleEngineId",
+                        column: x => x.VehicleEngineId,
                         principalTable: "car_engine",
                         principalColumn: "Id");
                     table.ForeignKey(
-                        name: "FK_vehicle_car_maintenance_MaintenanceId",
-                        column: x => x.MaintenanceId,
+                        name: "FK_vehicle_car_maintenance_VehicleMaintenanceId",
+                        column: x => x.VehicleMaintenanceId,
                         principalTable: "car_maintenance",
                         principalColumn: "Id");
                 });
@@ -160,22 +160,19 @@ namespace Infrastructure.Migrations
                 column: "vehicle_id1");
 
             migrationBuilder.CreateIndex(
-                name: "IX_vehicle_BodyId",
+                name: "IX_vehicle_VehicleBodyId",
                 table: "vehicle",
-                column: "BodyId",
-                unique: true);
+                column: "VehicleBodyId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_vehicle_EngineId",
+                name: "IX_vehicle_VehicleEngineId",
                 table: "vehicle",
-                column: "EngineId",
-                unique: true);
+                column: "VehicleEngineId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_vehicle_MaintenanceId",
+                name: "IX_vehicle_VehicleMaintenanceId",
                 table: "vehicle",
-                column: "MaintenanceId",
-                unique: true);
+                column: "VehicleMaintenanceId");
         }
 
         /// <inheritdoc />

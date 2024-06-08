@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Domain.Enums;
 using Infrastructure.Repositories;
 using VehicleFinder.Application.Interfaces;
 
@@ -57,6 +58,90 @@ namespace Application.Services
                 return false;
             }
             return await _bodyRepository.DeleteBodyAsync(existingBody);
+        }
+
+        public IEnumerable<Body> FilterBody(IEnumerable<Body> bodies, int? filterStart, int? filterEnd, string filterString)
+        {
+            if (string.IsNullOrWhiteSpace(filterString) || !filterStart.HasValue && !filterEnd.HasValue)
+                return bodies;
+
+            switch (filterString)
+            {
+                case "DoorCount":
+                    if (filterStart.HasValue)
+                        bodies = bodies.Where(b => b.DoorCount >= filterStart);
+                    if (filterEnd.HasValue)
+                        bodies = bodies.Where(b => b.DoorCount <= filterEnd);
+                    break;
+                case "SeatCount":
+                    if (filterStart.HasValue)
+                        bodies = bodies.Where(b => b.SeatCount >= filterStart);
+                    if (filterEnd.HasValue)
+                        bodies = bodies.Where(b => b.SeatCount <= filterEnd);
+                    break;
+                default:
+                    break;
+            }
+
+            return bodies;
+        }
+
+        public IEnumerable<Body> FilterBodyByAcType(IEnumerable<Body> bodies, AcTypes? filterAcType)
+        {
+            if (filterAcType.HasValue)
+            {
+                bodies = bodies.Where(b => b.AcType == filterAcType.Value);
+            }
+
+            return bodies;
+        }
+
+        public IEnumerable<Body> FilterBodyByEquipment(IEnumerable<Body> bodies, CarEquipement? filterEquipment)
+        {
+            if (filterEquipment.HasValue)
+            {
+                bodies = bodies.Where(b => b.Equipment == filterEquipment.Value);
+            }
+
+            return bodies;
+        }
+
+        public IEnumerable<Body> FilterBodyByBodyShape(IEnumerable<Body> bodies, CarBodyShape? filterBodyShape)
+        {
+            if (filterBodyShape.HasValue)
+            {
+                bodies = bodies.Where(b => b.BodyShape == filterBodyShape.Value);
+            }
+
+            return bodies;
+        }
+        public IEnumerable<Body> SortBody(IEnumerable<Body> bodies, string sortString)
+        {
+            switch (sortString)
+            {
+                case "DoorCountAsc":
+                    return bodies.OrderBy(b => b.DoorCount);
+                case "DoorCountDesc":
+                    return bodies.OrderByDescending(b => b.DoorCount);
+                case "SeatCountAsc":
+                    return bodies.OrderBy(b => b.SeatCount);
+                case "SeatCountDesc":
+                    return bodies.OrderByDescending(b => b.SeatCount);
+                case "AcTypeAsc":
+                    return bodies.OrderBy(b => b.AcType);
+                case "AcTypeDesc":
+                    return bodies.OrderByDescending(b => b.AcType);
+                case "EquipmentAsc":
+                    return bodies.OrderBy(b => b.Equipment);
+                case "EquipmentDesc":
+                    return bodies.OrderByDescending(b => b.Equipment);
+                case "BodyShapeAsc":
+                    return bodies.OrderBy(b => b.BodyShape);
+                case "BodyShapeDesc":
+                    return bodies.OrderByDescending(b => b.BodyShape);
+                default:
+                    return bodies.OrderBy(b => b.Id);
+            }
         }
     }
 }

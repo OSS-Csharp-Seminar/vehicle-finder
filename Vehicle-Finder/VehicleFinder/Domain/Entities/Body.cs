@@ -22,9 +22,9 @@ namespace Domain.Entities
         public AcTypes AcType { get; set; }
 
         [Column("equipment")]
-        public CarEquipement Equipment { get; set; } //takoder moze bit enum
+        public CarEquipement Equipment { get; set; } 
 
         [Column("body_shape")]
-        public CarBodyShape BodyShape { get; set; } //moze bit enum sa nekoliko opcija
+        public CarBodyShape BodyShape { get; set; } 
     }
 }

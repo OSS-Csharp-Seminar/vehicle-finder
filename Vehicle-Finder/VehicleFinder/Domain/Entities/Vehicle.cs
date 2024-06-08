@@ -30,6 +30,10 @@ namespace Domain.Entities
 
         [Column("owners_count")]
         public int OwnersCount { get; set; }
+
+        [Column("consumption")]
+        public float Consumption { get; set; }
+
         [ForeignKey("VehicleEngineId")]
         public Guid? VehicleEngineId { get; set; }
         public Engine? VehicleEngine { get; set; }

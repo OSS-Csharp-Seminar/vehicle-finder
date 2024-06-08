@@ -28,10 +28,7 @@ namespace Domain.Entities
         public int GearCount { get; set; }
 
         [Column("drive_type")]
-        public string DriveType { get; set; }
-
-        [Column("consumption")]
-        public float Consumption { get; set; }
+        public EngineDriveType DriveType { get; set; }
 
         [Column("engine_capacity")]
         public int EngineCapacity { get; set; }

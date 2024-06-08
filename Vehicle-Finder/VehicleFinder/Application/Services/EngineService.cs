@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Domain.Enums;
 using Infrastructure.Repositories;
 using System.Threading.Tasks;
 using VehicleFinder.Application.Interfaces;
@@ -59,6 +60,134 @@ namespace Application.Services
                 return false;
             }
             return await _engineRepository.DeleteEngineAsync(existingEngine);
+        }
+
+        public IEnumerable<Engine> SearchEngine(IEnumerable<Engine> engines, string searchString)
+        {
+            if(!string.IsNullOrEmpty(searchString))
+            {
+                engines = engines.Where(engine => engine.EngineName.Contains(searchString));
+            }
+
+            return engines;
+        }
+
+        public IEnumerable<Engine> FilterEngine(IEnumerable<Engine> engines, int? filterStart, int? filterEnd, string filterString)
+        {
+            if (filterString == "EnginePower")
+            {
+               if(filterStart.HasValue)
+               {
+                    engines = engines.Where(engine => engine.EnginePower >= filterStart);
+               }
+               if(filterEnd.HasValue)
+               {
+                    engines = engines.Where(engine => engine.EnginePower <= filterEnd);
+               }
+            }
+
+            if (filterString == "GearCount")
+            {
+                if (filterStart.HasValue)
+                {
+                    engines = engines.Where(engine => engine.GearCount >= filterStart);
+                }
+                if (filterEnd.HasValue)
+                {
+                    engines = engines.Where(engine => engine.GearCount <= filterEnd);
+                }
+            }
+
+            if (filterString == "EngineCapacity")
+            {
+                if (filterStart.HasValue)
+                {
+                    engines = engines.Where(engine => engine.EngineCapacity >= filterStart);
+                }
+                if (filterEnd.HasValue)
+                {
+                    engines = engines.Where(engine => engine.EngineCapacity <= filterEnd);
+                }
+            }
+
+            if (filterString == "CylinderCount")
+            {
+                if (filterStart.HasValue)
+                {
+                    engines = engines.Where(engine => engine.CylinderCount >= filterStart);
+                }
+                if (filterEnd.HasValue)
+                {
+                    engines = engines.Where(engine => engine.CylinderCount <= filterEnd);
+                }
+            }
+
+            return engines;
+        }
+
+        public IEnumerable<Engine> FilterEngineByEngineType(IEnumerable<Engine> engines, EngineType? filterEngineType)
+        {
+            if (filterEngineType.HasValue)
+            {
+                engines = engines.Where(engine => engine.EngineType == filterEngineType.Value);
+            }
+
+            return engines;
+        }
+
+        public IEnumerable<Engine> FilterEngineByShifterType(IEnumerable<Engine> engines, ShifterType? filterShifterType)
+        {
+            if (filterShifterType.HasValue)
+            {
+                engines = engines.Where(engine => engine.ShifterType == filterShifterType);
+            }
+
+            return engines;
+        }
+
+        public IEnumerable<Engine> FilterEngineByDriveType(IEnumerable<Engine> engines, EngineDriveType? filterEnginePower)
+        {
+            if (filterEnginePower.HasValue)
+            {
+                engines = engines.Where(engine => engine.DriveType == filterEnginePower);
+            }
+
+            return engines;
+        }
+
+        public IEnumerable<Engine> SortEngine(IEnumerable<Engine> engines, string sortString)
+        {
+            switch (sortString)
+            {
+                case "EngineNameDesc":
+                    return engines.OrderByDescending(engine => engine.EngineName);
+                case "EngineTypeAsc":
+                    return engines.OrderBy(engine => engine.EngineType);
+                case "EngineTypeDesc":
+                    return engines.OrderByDescending(engine => engine.EngineType);
+                case "EnginePowerAsc":
+                    return engines.OrderBy(engine => engine.EnginePower);
+                case "EnginePowerDesc":
+                    return engines.OrderByDescending(engine => engine.EnginePower);
+                case "ShifterAsc":
+                    return engines.OrderBy(engine => engine.ShifterType).ThenBy(engine => engine.GearCount);
+                case "ShifterDesc":
+                    return engines.OrderByDescending(engine => engine.ShifterType).ThenByDescending(engine => engine.GearCount);
+                case "DriveTypeAsc":
+                    return engines.OrderBy(engine => engine.DriveType);
+                case "DriveTypeDesc":
+                    return engines.OrderByDescending(engine => engine.DriveType);
+                case "EngineCapacityAsc":
+                    return engines.OrderBy(engine => engine.EngineCapacity);
+                case "EngineCapacityDesc":
+                    return engines.OrderByDescending(engine => engine.EngineCapacity);
+                case "CylinderCountAsc":
+                    return engines.OrderBy(engine => engine.CylinderCount);
+                case "CylinderCountDesc":
+                    return engines.OrderByDescending(engine => engine.CylinderCount);
+                default:
+                    return engines.OrderBy(engine => engine.EngineName);
+            }
         }
     }
 }

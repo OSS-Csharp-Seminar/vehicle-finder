@@ -60,5 +60,68 @@ namespace VehicleFinder.Application.Services
             }
             return await _maintenanceRepository.DeleteMaintenanceAsync(existingMaintenance);
         }
+
+        public IEnumerable<Maintenance> SearchMaintenance(IEnumerable<Maintenance> maintenances, string searchString)
+        {
+            if(!string.IsNullOrEmpty(searchString))
+            {
+                maintenances = maintenances.Where(maintenance => maintenance.FullDetails.Contains(searchString) || maintenance.BasicDetails.Contains(searchString));
+            }
+
+            return maintenances;
+        }
+
+        public IEnumerable<Maintenance> FilterMaintenanceCost(IEnumerable<Maintenance> maintenances, float? filterCostStart, float? filterCostEnd, string filterString)
+        {
+            if(filterString == "BasicCost")
+            {
+                if (filterCostStart.HasValue) 
+                {
+                    maintenances = maintenances.Where(maintenance => maintenance.BasicCost >= filterCostStart);
+                }
+                if (filterCostEnd.HasValue)
+                {
+                    maintenances = maintenances.Where(maintenance => maintenance.BasicCost <= filterCostEnd);
+                }
+            }
+            if (filterString == "FullCost")
+            {
+                if (filterCostStart.HasValue)
+                {
+                    maintenances = maintenances.Where(maintenance => maintenance.FullCost >= filterCostStart);
+                }
+                if (filterCostEnd.HasValue)
+                {
+                    maintenances = maintenances.Where(maintenance => maintenance.FullCost <= filterCostEnd);
+                }
+            }
+
+            return maintenances;
+        }
+
+        public IEnumerable<Maintenance> SortMaintenance(IEnumerable<Maintenance> maintenances, string sortString)
+        {
+            switch (sortString)
+            {
+                case "BasicCostAsc":
+                    return maintenances.OrderBy(m => m.BasicCost);
+                case "BasicCostDesc":
+                    return maintenances.OrderByDescending(m => m.BasicCost);
+                case "FullCostAsc":
+                    return maintenances.OrderBy(m => m.FullCost);
+                case "FullCostDesc":
+                    return maintenances.OrderByDescending(m => m.FullCost);
+                case "BasicDetailsAsc":
+                    return maintenances.OrderBy(m => m.BasicDetails);
+                case "BasicDetailsDesc":
+                    return maintenances.OrderByDescending(m => m.BasicDetails);
+                case "FullDetailsAsc":
+                    return maintenances.OrderBy(m => m.FullDetails);
+                case "FullDetailsDesc":
+                    return maintenances.OrderByDescending(m => m.FullDetails);
+                default:
+                    return maintenances.OrderBy(m => m.Id);
+            }
+        }
     }
 }

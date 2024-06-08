@@ -93,5 +93,96 @@ namespace Application.Services
             }
             return await _vehicleRepository.DeleteVehicleAsync(existingVehicle);
         }
+
+        public IEnumerable<Vehicle> SearchVehicle(IEnumerable<Vehicle> vehicles, string searchString)
+        {
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                vehicles = vehicles.Where(vehicle => vehicle.Make.Contains(searchString) || vehicle.Model.Contains(searchString));
+            }
+
+            return vehicles;
+        }
+
+        public IEnumerable<Vehicle> FilterVehicleByManufacturingYear(IEnumerable<Vehicle> vehicles, int? filterYearStart, int? filterYearEnd)
+        {
+            if (filterYearStart.HasValue)
+            {
+                vehicles = vehicles.Where(vehicle => vehicle.ManufactureYear >= filterYearStart);
+            }
+            if (filterYearEnd.HasValue)
+            {
+                vehicles = vehicles.Where(vehicle => vehicle.ManufactureYear <= filterYearEnd);
+            }
+
+            return vehicles;
+        }
+
+        public IEnumerable<Vehicle> FilterVehicleByKilometeres(IEnumerable<Vehicle> vehicles, int? filterKilometersStart, int? filterKilometersEnd)
+        {
+            if (filterKilometersStart.HasValue)
+            {
+                vehicles = vehicles.Where(vehicle => vehicle.Kilometers >= filterKilometersStart);
+            }
+            if (filterKilometersEnd.HasValue)
+            {
+                vehicles = vehicles.Where(vehicle => vehicle.Kilometers <= filterKilometersEnd);
+            }
+
+            return vehicles;
+        }
+        public IEnumerable<Vehicle> FilterVehicleByConsumption(IEnumerable<Vehicle> vehicles, float? filterConsumptionStart, float? filterConsumptionEnd)
+        {
+            if(filterConsumptionStart.HasValue)
+            {
+                vehicles = vehicles.Where(vehicle => vehicle.Consumption >= filterConsumptionStart);
+            }
+            if (filterConsumptionEnd.HasValue)
+            {
+                vehicles = vehicles.Where(vehicle => vehicle.Consumption <= filterConsumptionEnd);
+            }
+            return vehicles;
+        }
+
+        public IEnumerable<Vehicle> SortVehicle(IEnumerable<Vehicle> vehicles, string sortString)
+        {
+            switch (sortString)
+            {
+                case "MakeDesc":
+                    vehicles = vehicles.OrderByDescending(vehicle => vehicle.Make).ToList();
+                    break;
+                case "ModelAsc":
+                    vehicles = vehicles.OrderBy(vehicle => vehicle.Model).ToList();
+                    break;
+                case "ModelDesc":
+                    vehicles = vehicles.OrderByDescending(vehicle => vehicle.Model).ToList();
+                    break;
+                case "ManufacturingYearAsc":
+                    vehicles = vehicles.OrderBy(vehicles => vehicles.ManufactureYear).ToList();
+                    break;
+                case "ManufacturingYearDesc":
+                    vehicles = vehicles.OrderByDescending(vehicles => vehicles.ManufactureYear).ToList();
+                    break;
+                case "ModelYearAsc":
+                    vehicles = vehicles.OrderBy(vehicles => vehicles.ModelYear).ToList();
+                    break;
+                case "ModelYearDesc":
+                    vehicles = vehicles.OrderByDescending(vehicles => vehicles.ModelYear).ToList();
+                    break;
+                case "KilometersAsc":
+                    vehicles = vehicles.OrderBy(vehicles => vehicles.Kilometers).ToList();
+                    break;
+                case "KilometersDesc":
+                    vehicles = vehicles.OrderByDescending(vehicles => vehicles.Kilometers).ToList();
+                    break;
+                default:
+                    vehicles = vehicles.OrderBy(vehicles => vehicles.Make).ToList();
+                    break;
+            }
+
+            return vehicles;
+        }
+
+       
     }
 }
