@@ -28,6 +28,7 @@ namespace Domain.Enums
 
         [Display(Name = "Hydrogen")]
         Hydrogen
+
         // Add more engine types as needed
     }
 }

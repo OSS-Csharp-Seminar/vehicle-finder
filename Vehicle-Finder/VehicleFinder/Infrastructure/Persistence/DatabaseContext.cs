@@ -28,6 +28,11 @@ namespace Infrastructure.Persistence
                 .HasOne(v => v.VehicleMaintenance)
                 .WithMany()
                 .HasForeignKey(v => v.VehicleMaintenanceId);
+
+            modelBuilder.Entity<Listing>()
+                .HasOne(l => l.Vehicle)
+                .WithOne()
+                .HasForeignKey<Listing>(l => l.VehicleId);
         }
 
         public DbSet<Body> Bodies { get; set; }
